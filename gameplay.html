@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Геймплей игр - Приключения в Хогвартсе</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- Навигация -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <i class="fas fa-hat-wizard"></i>
+            <span>Приключения в Хогвартсе</span>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="about.html" class="nav-link">О книге</a>
+            <a href="characters.html" class="nav-link">Персонажи</a>
+            <a href="magic.html" class="nav-link">Магия</a>
+            <a href="hogwarts.html" class="nav-link">Хогвартс</a>
+            <a href="quotes.html" class="nav-link">Цитаты</a>
+            <a href="gameplay.html" class="nav-link active">Геймплей</a>
+        </div>
+        <div class="nav-search">
+            <i class="fas fa-search"></i>
+            <span>Поиск волшебных моментов...</span>
+        </div>
+    </div>
+</nav>
+
+<!-- Герой-секция -->
+<section class="gameplay-hero">
+    <div class="hero-background">
+        <img src="https://pixabay.com/get/g7d6c3f7945597f32badb23b8accd70e94f3eedef31ce2de210f8163029ae248ef73e8ea62b7cc333d619f89f3cc10805deb9dc473914e44981443769c1fb75bc_1280.jpg" alt="Библиотека Хогвартса" class="hero-image">
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+        <h1>Галерея магического геймплея</h1>
+        <p>Погрузитесь в волшебные игровые моменты мира магии. Ощутите атмосферу через скриншоты и видеоролики.</p>
+        <button class="view-gallery-btn">
+            <i class="fas fa-play"></i>
+            Смотреть галерею
+        </button>
+    </div>
+</section>
+
+<!-- Категории игр -->
+<section class="game-categories">
+    <div class="container">
+        <h2>Категории игр</h2>
+        <div class="categories-grid">
+            <div class="category-filter active" data-category="all">
+                <i class="fas fa-th"></i>
+                <span>Все игры</span>
+            </div>
+            <div class="category-filter" data-category="hogwarts-legacy">
+                <i class="fas fa-castle"></i>
+                <span>Наследие Хогвартса</span>
+            </div>
+            <div class="category-filter" data-category="quidditch">
+                <i class="fas fa-circle"></i>
+                <span>Квиддич</span>
+            </div>
+            <div class="category-filter" data-category="mobile">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Мобильные игры</span>
+            </div>
+            <div class="category-filter" data-category="classic">
+                <i class="fas fa-gamepad"></i>
+                <span>Классические игры</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Статистика и сообщество -->
+<section class="game-stats">
+    <div class="container">
+        <h2>Статистика игрового опыта</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Игр о Гарри Поттере</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-number">50М+</div>
+                <div class="stat-label">Игроков по всему миру</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Магических моментов</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="stat-number">25+</div>
+                <div class="stat-label">Лет гейминга</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="community-features">
+    <div class="container">
+        <h2>Поделитесь своими магическими моментами</h2>
+        <p>Загружайте свои игровые скриншоты и общайтесь с другими волшебниками и ведьмами</p>
+        <div class="community-actions">
+            <button class="upload-btn">
+                <i class="fas fa-upload"></i>
+                Загрузить скриншот
+            </button>
+            <button class="community-btn">
+                <i class="fas fa-users"></i>
+                Присоединиться к сообществу
+            </button>
+            <button class="tournament-btn">
+                <i class="fas fa-medal"></i>
+                Смотреть турниры
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-brand">
+            <h3>Приключения в Хогвартсе</h3>
+        </div>
+        <div class="newsletter">
+            <h4>Подписка на игровые обновления</h4>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Введите совиную почту">
+                <button type="submit">Подписаться</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-selector">
+                <i class="fas fa-globe"></i>
+                <span>Русский</span>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Приключения в Хогвартсе.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitch"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

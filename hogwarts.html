@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хогвартс — Факультеты и Распределение</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- Навигация -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <i class="fas fa-hat-wizard"></i>
+            <span>Приключения в Хогвартсе</span>
+        </div>
+        <div class="nav-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="about.html" class="nav-link">О книге</a>
+            <a href="characters.html" class="nav-link">Персонажи</a>
+            <a href="magic.html" class="nav-link">Магия</a>
+            <a href="hogwarts.html" class="nav-link active">Хогвартс</a>
+            <a href="quotes.html" class="nav-link">Цитаты</a>
+            <a href="gameplay.html" class="nav-link">Геймплей</a>
+        </div>
+        <div class="nav-search">
+            <i class="fas fa-search"></i>
+            <span>Поиск по волшебному миру...</span>
+        </div>
+    </div>
+</nav>
+
+<!-- Герой-секция -->
+<section class="hogwarts-hero">
+    <div class="hero-background">
+        <img src="https://pixabay.com/get/g6d7b246c984715fed476f6d5f0d51fce3594d06b6c5429527abd2be8082cf1969ebd68b3a5aeafdb9b2085a041ff055aac979da93caacfd1c1fc2357422967e2_1280.jpg" alt="Распределяющая шляпа" class="hero-image">
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+        <h1>На какой ты факультет?</h1>
+        <p>Распределяющая шляпа всё знает. Узнай, какой факультет Хогвартса и какие ценности определяют твой магический путь.</p>
+        <button class="cta-button">Начать распределение</button>
+    </div>
+</section>
+
+<!-- Факультеты -->
+<section class="houses-section">
+    <div class="container">
+        <h2>Четыре благородных факультета</h2>
+        <p>Познакомься с уникальными традициями и ценностями каждого из факультетов Хогвартса, основанных четырьмя величайшими волшебниками своего времени.</p>
+
+        <div class="houses-grid">
+            <div class="house-card gryffindor">
+                <div class="house-crest">
+                    <img src="https://pixabay.com/get/gf9e13701dd958c170091c198f44566835f2b4ec28dc2ea3ed8e1339b97b1deffb9ce19edf5977846e09e75a02e2103d8641e35def654df3cc2c8d63c0502194f_1280.jpg" alt="Герб Гриффиндора" class="crest-image">
+                </div>
+                <div class="house-info">
+                    <h3>Гриффиндор</h3>
+                    <div class="house-traits">
+                        <span class="trait">Смелость</span>
+                        <span class="trait">Храбрость</span>
+                        <span class="trait">Решимость</span>
+                        <span class="trait">Рыцарство</span>
+                    </div>
+                    <p>Студенты Гриффиндора ценят смелость, отвагу, решимость и рыцарство. Их символ — лев, а цвета — алый и золотой.</p>
+                    <a href="#" class="learn-more">Узнать больше</a>
+                </div>
+            </div>
+
+            <div class="house-card hufflepuff">
+                <div class="house-crest">
+                    <img src="https://pixabay.com/get/g7b99f5a5ecdfa75b886febcf85a1af11df3100f7b98a763668c8863ea5726666bb3348af1bfd87e60653dd44bfb9ec71d983cdbf759625a62fe3361706cdcb94_1280.jpg" alt="Герб Пуффендуя" class="crest-image">
+                </div>
+                <div class="house-info">
+                    <h3>Пуффендуй</h3>
+                    <div class="house-traits">
+                        <span class="trait">Трудолюбие</span>
+                        <span class="trait">Терпение</span>
+                        <span class="trait">Верность</span>
+                        <span class="trait">Справедливость</span>
+                    </div>
+                    <p>Пуффендуй известен трудолюбием, терпением, верностью и справедливостью. Его символ — барсук, а цвета — жёлтый и чёрный.</p>
+                    <a href="#" class="learn-more">Узнать больше</a>
+                </div>
+            </div>
+
+            <div class="house-card ravenclaw">
+                <div class="house-crest">
+                    <img src="https://pixabay.com/get/g1b9802485fb6e7046420dfb90ae2cdc9e130ef7bd4770cf6259fcbc4447c02ecfcde0324dd1aa69bccee84ca7202d5e6e8be3e60ad850b6c85772caa4f4ddd69_1280.jpg" alt="Герб Когтеврана" class="crest-image">
+                </div>
+                <div class="house-info">
+                    <h3>Когтевран</h3>
+                    <div class="house-traits">
+                        <span class="trait">Интеллект</span>
+                        <span class="trait">Мудрость</span>
+                        <span class="trait">Остроумие</span>
+                        <span class="trait">Стремление к знаниям</span>
+                    </div>
+                    <p>Когтевран ценит ум, знание, любознательность, креативность и остроумие. Его символ — орёл, цвета — синий и бронзовый.</p>
+                    <a href="#" class="learn-more">Узнать больше</a>
+                </div>
+            </div>
+
+            <div class="house-card slytherin">
+                <div class="house-crest">
+                    <img src="https://pixabay.com/get/g1bd869eb8e50f7748e9d38ee1c84d9fdc8ba923c21f8c46b06a47423ec85b51373bd6e699cce35ab0681a4dd01d4f6847274fec19ee6c2057c3770dbd9a4b442_1280.jpg" alt="Герб Слизерина" class="crest-image">
+                </div>
+                <div class="house-info">
+                    <h3>Слизерин</h3>
+                    <div class="house-traits">
+                        <span class="trait">Амбиции</span>
+                        <span class="trait">Хитрость</span>
+                        <span class="trait">Лидерство</span>
+                        <span class="trait">Находчивость</span>
+                    </div>
+                    <p>Слизерин известен амбициозностью, хитростью, лидерскими качествами и находчивостью. Символ — змея, а цвета — зелёный и серебряный.</p>
+                    <a href="#" class="learn-more">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
